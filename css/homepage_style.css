@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.background {
+  position: relative;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.title {
+  position: absolute;
+  z-index: 2;
+  font-family: "Jolly Lodger", serif;
+  color: black;
+  font-size: 5vw;
+  font-weight: bold;
+  font-style: normal;
+  background-attachment: fixed;
+  left : 40vw;
+}
+.text {
+  position: absolute;
+  color: black;
+  z-index: 2;
+  font-size: 3vw;
+  background-attachment: fixed;
+  top : 22vh;
+  left : 40vw;
+}
+.menu {
+  position: absolute;
+  word-spacing: 10vh;
+  color: black;
+  z-index: 2;
+  font-size: 2vw;
+  background-attachment: fixed;
+  font-family: "Jolly Lodger", serif;
+  font-weight: bold;
+  font-style: normal;
+  top : 50vh;
+  left : 35vw;
+}
+.titleimg {
+  position: absolute;
+  top : 8vh;
+  left : 53vw;
+  width: 8vw;
+  height: auto;
+}
+.back1 {
+  position: absolute;
+  top : -3vh;
+  left : -7vh;
+  width: 55vh;
+  height: auto;
+  transform: rotate(59.91deg);
+}
+.back2 {
+  position: absolute;
+  top : 24vh;
+  left : -5vh;
+  width: 40vh;
+  height: auto;
+  transform: rotate(59.22deg);
+}
+.back3 {
+  position: absolute;
+  top : 42vh;
+  left : -5vh;
+  width: 40vh;
+  height: auto;
+  transform: rotate(90deg);
+}
+.back4 {
+  position: absolute;
+  top : 60vh;
+  left : -1vh;
+  width: 50vh;
+  height: auto;
+  transform: rotate(5deg);
+}
+.back5 {
+  position: absolute;
+  top : 68vh;
+  left : 31vh;
+  z-index: 2;
+  width: 50vh;
+  height: auto;
+  transform: rotate(-8deg);
+}
+.back6 {
+  position: absolute;
+  top : 65vh;
+  left : 60vh;
+  z-index: 1;
+  width: 53vh;
+  height: auto;
+  transform: rotate(-3deg);
+}
+.back7 {
+  position: absolute;
+  top : 70vh;
+  left : 100vh;
+  width: 56vh;
+  height: auto;
+  transform: rotate(0deg);
+}
+.back8 {
+  position: absolute;
+  top : 65vh;
+  left : 145vh;
+  width: 37vh;
+  height: auto;
+  transform: rotate(-40deg);
+}
+.back9 {
+  position: absolute;
+  top : 25vh;
+  left : 130vh;
+  width: 35vw;
+  height: auto;
+  transform: rotate(-65deg);
+}
+.back10 {
+  position: absolute;
+  top : 27vh;
+  left : 150vh;
+  width: 18vw;
+  height: auto;
+  transform: rotate(-88deg);
+}
+.back11 {
+  position: absolute;
+  top : 3vh;
+  left : 138vh;
+  width: 25vw;
+  height: auto;
+  transform: rotate(-93deg);
+}
+

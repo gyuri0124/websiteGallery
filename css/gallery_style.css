@@ -1,0 +1,45 @@
+#gallery_title {
+  margin: 80px 0;
+  font-family: "Nanum Gothic", serif;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+#gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4vw;
+}
+.pic {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.pic:hover {opacity: 0.8;}
+
+.modal {
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.61);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.modalImg {
+  max-width: 90%;
+  max-height: 90%;
+}
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
