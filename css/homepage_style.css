@@ -31,7 +31,14 @@ body {
 }
 .menu {
   position: absolute;
-  word-spacing: 10vh;
+  top : 50vh;
+  left : 35vw;
+  gap : 85px;
+  display: flex;
+  align-items: center;
+}
+.menuBtn {
+  cursor: pointer;
   color: black;
   z-index: 2;
   font-size: 2vw;
@@ -39,8 +46,6 @@ body {
   font-family: "Jolly Lodger", serif;
   font-weight: bold;
   font-style: normal;
-  top : 50vh;
-  left : 35vw;
 }
 .titleimg {
   position: absolute;
@@ -139,4 +144,3 @@ body {
   height: auto;
   transform: rotate(-93deg);
 }
-
