@@ -12,6 +12,7 @@
   gap: 4vw;
 }
 .pic {
+  cursor: pointer;
   width: 300px;
   height: 300px;
   object-fit: cover;
