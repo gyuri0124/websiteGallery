@@ -1,7 +1,3 @@
-/* 배경화면 */
-const bg = document.querySelector(".background");
-bg.style.opacity = "40%";
-
 /* 원본 띄우기 */
 document.addEventListener("DOMContentLoaded", function() {
   const image = document.querySelectorAll(".pic");
