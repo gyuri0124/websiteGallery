@@ -18,5 +18,4 @@
   
 ## 실행방법
 
-1. 프로젝트 파일을 다운로드합니다.
-2. `index.html`을 웹 브라우저로 실행시킵니다.
+https://gyuri0124.github.io/websiteGallery/ 클릭
